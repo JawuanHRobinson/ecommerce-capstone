@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<body>
+ <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="img/Cover Arts/Autumn.png" width="100%" id="MainImage" alt="">
+            </div>
+
+            <div class="single-pro-details"> <!--Fix in css-->
+              <h6>Home / purchases</h6>
+              <h4>Cakes On Top Of Cakes</h4>
+              <h2 id="price">$5</h2>
+              <select id="select">
+               <option>Select Cakes</option>
+               <option>Cupcakes</option>
+               <option>Personal Cakes</option>
+               <option>Birthday Cakes</option>
+               <option>Wedding Cakes</option>
+               <option>Sesonal Cakes</option>
+              </select>
+
+              <script>
+                let select = document.getElementById('select');
+                let price = document.getElementById('price');
+
+                // Prices
+                let prices = {
+                  "Select Licence": '$5',
+                  "MP3": '$5',
+                  "Tagged Wav": '$7',
+                  "Un-Tagged Wav": '$10',
+                  "Stems": '$15',
+                  "Exlusive": '$50'
+                }
+
+                // When the value of select changes, this event listener fires and changes the text content of price to the coresponding value from the prices object
+                select.addEventListener('change', () => {
+                  price.textContent = prices[select.value];
+                });
+              </script>
+            
+                <!--<h2 id="sproduct-price">$25</h2>-->
+                <a href="https://buy.stripe.com/bIYcNd7L051rag8cMN"><button class="normal">Add to Cart</button></a>
+                <h4>Product Details</h4>
+                <span>Cake On Top Cakes - The prices is great just $5 for a doezen cupcakes,$10 for each personal cake,$15 for birthday cakes and wedding cakes $25,seasonal cakes are $50 and all these cakes are made fresh when ordered also made with some of the freshes ingredients.</span>
+            </div>
+            
+                 
+                  
+             
+              
+        
+
+
+
+
+
+        </body>
+<img src="https://cdn.pixabay.com/photo/2013/07/13/10/04/chocolate-cake-156482_1280.png"width="120px" alt="https://cdn.pixabay.com/photo/2013/07/13/10/04/chocolate-cake-156482_1280.png"> 
+<img src="https://cdn.pixabay.com/photo/2023/07/08/11/06/red-velvet-8114198_1280.png"height="120px"width="120px alt="">
+<img src="https://cdn.pixabay.com/photo/2014/04/03/10/02/cake-309664_1280.png"width="120px" alt="">
+
+
+
+
+
+
+
+
+
+
+        </html>
