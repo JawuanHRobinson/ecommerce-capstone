@@ -5,6 +5,8 @@ This is an E-commerce website for a cake shop. The website provides information 
 ## Pages
 
 - [index.html](index.html): The homepage of the website.
+- ![image](https://github.com/JonCGroberg/ecommerce-capstone/assets/55463563/e8b45856-c74d-443c-a052-a061b8bcad6f)
+
 
 - [services.html](services.html): This page provides information about the services offered by the shop.
 
