@@ -5,9 +5,14 @@ This is an E-commerce website for a cake shop. The website provides information 
 ## Pages
 
 - [index.html](index.html): The homepage of the website.
+
 - [services.html](services.html): This page provides information about the services offered by the shop.
+
 - [login.html](login.html): This page allows users to log in.
+- ![login_screenshot](./screenshots/LoginPage.png)
+
 - [signup.html](signup.html): This page allows new users to sign up.
+
 - [checkout.html](checkout.html): This page allows users to check out.
 - ![checkout_screenshot](./screenshots/checkout.png)
 
