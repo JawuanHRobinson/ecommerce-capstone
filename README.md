@@ -9,6 +9,7 @@ This is an E-commerce website for a cake shop. The website provides information 
 - [login.html](login.html): This page allows users to log in.
 - [signup.html](signup.html): This page allows new users to sign up.
 - [checkout.html](checkout.html): This page allows users to check out.
+- ![checkout_screenshot](./screenshots/checkout.png)
 
 ## Styles
 
