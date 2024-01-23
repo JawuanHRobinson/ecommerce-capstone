@@ -1,17 +1,49 @@
-* {
-  background-color: aqua;
+.hero {
+  /* Sizing */
+  width: center; 
+  height: 50vh;
+  
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Text styles */
+  text-align: center;
+  
+  /* Background styles */
+  background-image: url(https://www.thephotoargus.com/wp-content/uploads/2021/07/wedding-cake-pictures-interesting-background.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.button1 {
-    position: absolute;
-    top: 75%;
-    left: 80%;
-  }
+.hero-inner h1 {
+  /* Text styles */
+  font-size: 5em;
+  background-color: transparent;
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
 
-  
+Body {
+  background-color: rgba(242,183,164,255);
+}
 
-  h1 {
-border-image-repeat: round;
+.content {
+  text-align: center;
+}
+.list {
+  text-align: center;
+}
 
+footer {
+  text-align: center;
+}
 
-  }
+.btn {
+  background-color: rgba(242,183,164,255);
+  border: none;
+}
